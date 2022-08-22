@@ -16,7 +16,7 @@ export class CopyCat extends React.Component {
     
     return (
       <div style={styles.divStyles}>
-        <h1 style={{marginBottom: 80}}>Copy Cat {name || "Tom"}</h1>
+        <h1 style={{marginBottom: 80}}>Copy Cat {name || "Juan"}</h1>
         <input 
           type="text" 
           value={value} 
